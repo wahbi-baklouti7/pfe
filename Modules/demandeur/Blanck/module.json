@@ -1,0 +1,11 @@
+{
+    "name": "Blanck",
+    "alias": "blanck",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\demandeur\\Blanck\\App\\Providers\\BlanckServiceProvider"
+    ],
+    "files": []
+}
