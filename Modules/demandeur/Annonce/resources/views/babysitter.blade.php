@@ -41,149 +41,328 @@
     <div class="row">
         <div class="col-xl-12 col-xxl-12">
             <div class="card">
-                <div class="card-header">
-                    <h4 class="card-title">Form step</h4>
-                </div>
                 <div class="card-body">
                     <div id="smartwizard" class="form-wizard order-create">
                         <ul class="nav nav-wizard">
-                            <li><a class="nav-link" href="#wizard_Service">
+                            <li><a class="nav-link" href="#wizard_Title">
                                 <span>1</span>
                             </a></li>
-                            <li><a class="nav-link" href="#wizard_Time">
+                            <li><a class="nav-link" href="#wizard_Service">
                                 <span>2</span>
                             </a></li>
-                            <li><a class="nav-link" href="#wizard_Details">
+                            <li><a class="nav-link" href="#wizard_Time">
                                 <span>3</span>
                             </a></li>
-                            <li><a class="nav-link" href="#wizard_Payment">
+                            <li><a class="nav-link" href="#wizard_Details">
                                 <span>4</span>
                             </a></li>
+                            <li><a class="nav-link" href="#wizard_Payment">
+                                <span>5</span>
+                            </a></li>
                         </ul>
+
                         <div class="tab-content">
-                            <div id="wizard_Service" class="tab-pane" role="tabpanel">
-            <div class="container">
+<!------------------------------ BGIN STEP 2------------------------------------->
+<div id="wizard_Title" class="tab-pane" role="tabpanel">
     <div class="row">
-        <div class="col-lg-6">
-            <!-- Formulaire existant -->
-            <form>
-                <legend><strong>Mes enfants </strong></legend>
+        <hr>
+        <h3>Titre de l'annonce</h3>
+
+        <div class="container pb-5 text-center col-6">
+
+            <input type="text" class="   form-control form-control-lg " placeholder="Titre de l'annonce">
+        </div>
+    </div>
+</div>
+
+
+
+<!------------------------------ BGIN STEP 2------------------------------------->
+<div id="wizard_Service" class="tab-pane" role="tabpanel">
+    <div class="row m-1">
+        <hr>
+        <h3>Service</h3>
+        <div class="container col-12">
+            <div class="col-xl-6 col-lg-6 col-sm-6">
                 <div class="row">
-    <div class="col-md-4">
-        <div class="card">
-            <div class="card-body">
-                <div class="text-center">
-                    <img src="{{ asset('build/assets/images/Nournous.jpg')}}" class="img-fluid" style="max-width: 90px;" alt="Image">
-                    <p class="mt-1 mb-0" style="font-size: 0.8rem;">Moins de 3 ans </p>
-                </div>
-            </div>
-            <div class="card-footer p-0">
-                <div class="col-md-12">
-                    <div class="input-group m-0">
-                        <div class="input-group-btn">
-                            <button class="btn btn-sm">
-                                <i class="fa fa-minus-square"></i>
-                            </button>
+                    <h4 class="text-primary">Vos Enfants</h4>
+                    <div class="col-lg-3">
+                        <!--------- BEGIN COUNTER ---------------------->
+                        <div class="card border shadow-sm ">
+                            <div class="card-body text-center bg-white">
+
+                                    <div class="profile-photo">
+                                        <img src="assets/images/maminou/icons/3101.png" width="80%"  class=" img-fluid " alt="">
+                                    </div>
+                                    <h6 class="mt-2">Moin de 1ans</h6>
+
+                            </div>
+                            <div class="card-footer p-0">
+                                <div class="col-md-12">
+                                    <div class="input-group m-0">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-sm">
+                                            <i class="fa fa-minus-square"></i>
+                                            </button>
+                                        </div>
+                                        <input type="text" id="input3-group2" name="input3-group2" placeholder="Search" class="form-control">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-sm">
+                                            <i class="fa fa-plus-square"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <input type="text" id="input3-group2" name="input3-group2" placeholder="Search" class="form-control">
-                        <div class="input-group-btn">
-                            <button class="btn btn-sm">
-                                <i class="fa fa-plus-square"></i>
-                            </button>
+                        <!--------- END COUNTER ---------------------->
+                    </div>
+
+                    <div class="col-lg-3 m-2">
+                        <!--------- BEGIN COUNTER ---------------------->
+                        <div class="card border shadow-sm ">
+                            <div class="card-body text-center bg-white">
+
+                                    <div class="profile-photo">
+                                        <img src="assets/images/maminou/icons/3101.png" width="80%"  class=" img-fluid " alt="">
+                                    </div>
+                                    <h6 class="mt-2">Moin de 1ans</h6>
+
+                            </div>
+                            <div class="card-footer p-0">
+                                <div class="col-md-12">
+                                    <div class="input-group m-0">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-sm">
+                                            <i class="fa fa-minus-square"></i>
+                                            </button>
+                                        </div>
+                                        <input type="text" id="input3-group2" name="input3-group2" placeholder="Search" class="form-control">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-sm">
+                                            <i class="fa fa-plus-square"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        <!--------- END COUNTER ---------------------->
+                    </div>
+
+
+
+                    <div class="col-lg-4 m-2">
+                        <!--------- BEGIN COUNTER ---------------------->
+                        <div class="card border shadow-sm ">
+                            <div class="card-body text-center bg-white">
+
+                                    <div class="profile-photo">
+                                        <img src="assets/images/maminou/icons/3101.png" width="80%"  class=" img-fluid " alt="">
+                                    </div>
+                                    <h6 class="mt-2">Moin de 1ans</h6>
+
+                            </div>
+                            <div class="card-footer p-0">
+                                <div class="col-md-12">
+                                    <div class="input-group m-0">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-sm">
+                                            <i class="fa fa-minus-square"></i>
+                                            </button>
+                                        </div>
+                                        <input type="text" id="input3-group2" name="input3-group2" placeholder="Search" class="form-control">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-sm">
+                                            <i class="fa fa-plus-square"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--------- END COUNTER ---------------------->
+                    </div>
+
+
+                    <div class="col-lg-4 m-2">
+                        <!--------- BEGIN COUNTER ---------------------->
+                        <div class="card border shadow-sm ">
+                            <div class="card-body text-center bg-white">
+
+                                    <div class="profile-photo">
+                                        <img src="assets/images/maminou/icons/3101.png" width="80%"  class=" img-fluid " alt="">
+                                    </div>
+                                    <h6 class="mt-2">Moin de 1ans</h6>
+
+                            </div>
+                            <div class="card-footer p-0">
+                                <div class="col-md-12">
+                                    <div class="input-group m-0">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-sm">
+                                            <i class="fa fa-minus-square"></i>
+                                            </button>
+                                        </div>
+                                        <input type="text" id="input3-group2" name="input3-group2" placeholder="Search" class="form-control">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-sm">
+                                            <i class="fa fa-plus-square"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--------- END COUNTER ---------------------->
                     </div>
                 </div>
+
+
             </div>
         </div>
     </div>
-    <div class="col-md-4">
-        <div class="card">
-            <div class="card-body">
-                <div class="text-center">
-                    <img src="{{ asset('build/assets/images/Nournous.jpg')}}" class="img-fluid" style="max-width: 90px;" alt="Image">
-                    <p class="mt-1 mb-0" style="font-size: 0.8rem;">Entre 3 ans et 6ans  </p>
-                </div>
-            </div>
-            <div class="card-footer p-0">
-                <div class="col-md-12">
-                    <div class="input-group m-0">
-                        <div class="input-group-btn">
-                            <button class="btn btn-sm">
-                                <i class="fa fa-minus-square"></i>
-                            </button>
-                        </div>
-                        <input type="text" id="input3-group2" name="input3-group2" placeholder="Search" class="form-control">
-                        <div class="input-group-btn">
-                            <button class="btn btn-sm">
-                                <i class="fa fa-plus-square"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!-- Deuxième carte -->
-    </div>
-    <div class="col-md-4">
-       <div class="card">
-            <div class="card-body">
-                <div class="text-center">
-                    <img src="{{ asset('build/assets/images/Nournous.jpg')}}" class="img-fluid" style="max-width: 90px;" alt="Image">
-                    <p class="mt-1 mb-0" style="font-size: 0.8rem;">plus de 6 ans </p>
-                </div>
-            </div>
-            <div class="card-footer p-0">
-                <div class="col-md-12">
-                    <div class="input-group m-0">
-                        <div class="input-group-btn">
-                            <button class="btn btn-sm">
-                                <i class="fa fa-minus-square"></i>
-                            </button>
-                        </div>
-                        <input type="text" id="input3-group2" name="input3-group2" placeholder="Search" class="form-control">
-                        <div class="input-group-btn">
-                            <button class="btn btn-sm">
-                                <i class="fa fa-plus-square"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> <!-- Troisième carte -->
-    </div>
+</div>
+
+
+
+
+
+<div id="wizard_Service2" class="tab-pane" role="tabpanel">
+<hr>
+<h3>Service</h3>
+<div class="container">
+<div class="row">
+<div class="col-lg-6">
+<!-- Formulaire existant -->
+<form>
+<legend><strong>Mes enfants </strong></legend>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-body">
+<div class="text-center">
+<img src="{{ asset('build/assets/images/Nournous.jpg')}}" class="img-fluid" style="max-width: 90px;" alt="Image">
+<p class="mt-1 mb-0" style="font-size: 0.8rem;">Moins de 3 ans </p>
+</div>
+</div>
+<div class="card-footer p-0">
+<div class="col-md-12">
+<div class="input-group m-0">
+<div class="input-group-btn">
+<button class="btn btn-sm">
+<i class="fa fa-minus-square"></i>
+</button>
+</div>
+<input type="text" id="input3-group2" name="input3-group2" placeholder="Search" class="form-control">
+<div class="input-group-btn">
+<button class="btn btn-sm">
+<i class="fa fa-plus-square"></i>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-body">
+<div class="text-center">
+<img src="{{ asset('build/assets/images/Nournous.jpg')}}" class="img-fluid" style="max-width: 90px;" alt="Image">
+<p class="mt-1 mb-0" style="font-size: 0.8rem;">Entre 3 ans et 6ans  </p>
+</div>
+</div>
+<div class="card-footer p-0">
+<div class="col-md-12">
+<div class="input-group m-0">
+<div class="input-group-btn">
+<button class="btn btn-sm">
+<i class="fa fa-minus-square"></i>
+</button>
+</div>
+<input type="text" id="input3-group2" name="input3-group2" placeholder="Search" class="form-control">
+<div class="input-group-btn">
+<button class="btn btn-sm">
+<i class="fa fa-plus-square"></i>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div><!-- Deuxième carte -->
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-body">
+<div class="text-center">
+<img src="{{ asset('build/assets/images/Nournous.jpg')}}" class="img-fluid" style="max-width: 90px;" alt="Image">
+<p class="mt-1 mb-0" style="font-size: 0.8rem;">plus de 6 ans </p>
+</div>
+</div>
+<div class="card-footer p-0">
+<div class="col-md-12">
+<div class="input-group m-0">
+<div class="input-group-btn">
+<button class="btn btn-sm">
+<i class="fa fa-minus-square"></i>
+</button>
+</div>
+<input type="text" id="input3-group2" name="input3-group2" placeholder="Search" class="form-control">
+<div class="input-group-btn">
+<button class="btn btn-sm">
+<i class="fa fa-plus-square"></i>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div> <!-- Troisième carte -->
+</div>
 </div>
 <!-- Contenu du formulaire ici -->
-            </form>
-        </div>
-        <div class="col-lg-6">
-            <!-- Boutons "Assistante maternelle" -->
-            <div class="row">
-                   <legend><strong>Type de services</strong></legend>
-                <div class="col-lg-12 mb-2">
-                    <div class="form-group">
-                        <button type="button" class="btn btn-outline-info w-75 btn-sm toggle-active button-toggle float-right"><i class="fa-solid fa-2xl fa-calendar-days"></i><hr />Plein temps</button>
-                    </div>
-                </div>
-                <div class="col-lg-12 mb-2">
-                    <div class="form-group">
-                        <button type="button" class="btn btn-outline-info w-75 btn-sm toggle-active button-toggle float-right"><i class="fa-solid fa-2xl  fa-list-check"></i><hr />Occassionnelle</button>
-                    </div>
-                </div>
-                <div class="col-lg-12 mb-2">
-                    <div class="form-group">
-                        <button type="button" class="btn btn-outline-info w-75 btn-sm toggle-active button-toggle float-right"><i class="fa-solid  fa-2xl fa-house"></i><hr />Sortie d'école</button>
-                    </div>
-                </div>
-                <div class="col-lg-12 mb-2">
-                    <div class="form-group">
-                        <button type="button" class="btn btn-outline-info w-75 btn-sm toggle-active button-toggle float-right"><i class="fa-solid fa-2xl fa-baby"></i><hr />Assistante maternelle</button>
-                    </div>
-                </div>
-                <hr/>
-            </div>
-        </div>
-    </div>
+</form>
+</div>
+<div class="col-lg-6">
+<!-- Boutons "Assistante maternelle" -->
+<div class="row">
+<legend><strong>Type de services</strong></legend>
+<div class="col-lg-12 mb-2">
+<div class="form-group">
+<button type="button" class="btn btn-outline-info w-75 btn-sm toggle-active button-toggle float-right"><i class="fa-solid fa-2xl fa-calendar-days"></i><hr />Plein temps</button>
 </div>
 </div>
+<div class="col-lg-12 mb-2">
+<div class="form-group">
+<button type="button" class="btn btn-outline-info w-75 btn-sm toggle-active button-toggle float-right"><i class="fa-solid fa-2xl  fa-list-check"></i><hr />Occassionnelle</button>
+</div>
+</div>
+<div class="col-lg-12 mb-2">
+<div class="form-group">
+<button type="button" class="btn btn-outline-info w-75 btn-sm toggle-active button-toggle float-right"><i class="fa-solid  fa-2xl fa-house"></i><hr />Sortie d'école</button>
+</div>
+</div>
+<div class="col-lg-12 mb-2">
+<div class="form-group">
+<button type="button" class="btn btn-outline-info w-75 btn-sm toggle-active button-toggle float-right"><i class="fa-solid fa-2xl fa-baby"></i><hr />Assistante maternelle</button>
+</div>
+</div>
+<hr/>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<!------------------------------ END STEP 2------------------------------------->
+
+
+
+
+
+
+
 
                             <div id="wizard_Time" class="tab-pane" role="tabpanel">
                                 <div class="row">
