@@ -1,0 +1,11 @@
+{
+    "name": "White",
+    "alias": "white",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\White\\App\\Providers\\WhiteServiceProvider"
+    ],
+    "files": []
+}

@@ -67,7 +67,9 @@
         <div class="col-lg-6">
             <!-- Formulaire existant -->
             <form>
-                <legend><strong>Mes enfants </strong></legend>
+            <div class="profile-skills mb-5">
+                                        <h4 class="text-primary mb-2">Mes enfants</h4>
+            
                 <div class="row">
     <div class="col-md-4">
         <div class="card">
@@ -154,10 +156,13 @@
 <!-- Contenu du formulaire ici -->
             </form>
         </div>
+    </div>
         <div class="col-lg-6">
             <!-- Boutons "Assistante maternelle" -->
             <div class="row">
-                   <legend><strong>Type de services</strong></legend>
+            <div class="profile-skills mb-5">
+                                        <h4 class="text-primary mb-2">Type de Service</h4>
+            
                 <div class="col-lg-12 mb-2">
                     <div class="form-group">
                         <button type="button" class="btn btn-outline-info w-75 btn-sm toggle-active button-toggle float-right"><i class="fa-solid fa-2xl fa-calendar-days"></i><hr />Plein temps</button>
@@ -184,6 +189,7 @@
     </div>
 </div>
 </div>
+                        </div>
 
                             <div id="wizard_Time" class="tab-pane" role="tabpanel">
                                 <div class="row">
