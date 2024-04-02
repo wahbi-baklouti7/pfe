@@ -1,0 +1,30 @@
+@extends('layout.main_page')
+
+@section('style')
+@endsection
+
+
+@section('content')
+<div class="container-fluid">
+    <div class="page-titles">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="javascript:void(0)">Form</a></li>
+            <li class="breadcrumb-item active"><a href="javascript:void(0)">Wizard</a></li>
+        </ol>
+    </div>
+    <!-- row -->
+    <div class="row">
+
+
+
+
+
+
+
+
+    </div>
+</div>
+@endsection
+
+@section('scripts')
+@endsection

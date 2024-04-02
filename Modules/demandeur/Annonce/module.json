@@ -1,0 +1,11 @@
+{
+    "name": "Annonce",
+    "alias": "annonce",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\demandeur\\Annonce\\App\\Providers\\AnnonceServiceProvider"
+    ],
+    "files": []
+}

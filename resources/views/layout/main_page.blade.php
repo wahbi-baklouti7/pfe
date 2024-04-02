@@ -8,7 +8,9 @@
 	   <!-- Title -->
 	<title>ERES Laravel | Nestable</title>
 
-	<!-- Meta -->
+    <base href="http://127.0.0.1:8000" >
+
+    <!-- Meta -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="author" content="DexignZone">
@@ -27,11 +29,19 @@
 
 	<!-- Favicon icon -->
 
+
 	<!-- FAVICONS ICON -->
 <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
 <link href="assets/js/nestable2/css/jquery.nestable.min.css" rel="stylesheet" type="text/css"/>
 <link href="assets/js/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet" type="text/css"/>
+
+@yield("head")
+
 <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+<style>
+     @yield("style")
+</style>
+
 
 </head>
 <body>
@@ -1021,7 +1031,7 @@
 <script src="assets/js/demo.js"  type="text/javascript"></script>
 <script src="assets/js/styleSwitcher.js"  type="text/javascript"></script>
 
-
+@yield("scripts")
 
 </body>
 
