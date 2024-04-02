@@ -86,31 +86,29 @@
             <div class="col-xl-6 col-lg-6 col-sm-6">
                 <div class="row">
                     <h4 class="text-primary">Vos Enfants</h4>
-                    <div class="col-lg-3">
+                    <div class="col-lg-4 m-2">
                         <!--------- BEGIN COUNTER ---------------------->
-                        <div class="card border shadow-sm ">
-                            <div class="card-body text-center bg-white">
-
+                        <div class="card border shadow-sm">
+                            <div class="card-body">
+                                <div class="text-center">
                                     <div class="profile-photo">
                                         <img src="assets/images/maminou/icons/3101.png" width="80%"  class=" img-fluid " alt="">
                                     </div>
                                     <h6 class="mt-2">Moin de 1ans</h6>
-
+                                </div>
                             </div>
-                            <div class="card-footer p-0">
-                                <div class="col-md-12">
-                                    <div class="input-group m-0">
-                                        <div class="input-group-btn">
-                                            <button class="btn btn-sm">
-                                            <i class="fa fa-minus-square"></i>
-                                            </button>
-                                        </div>
-                                        <input type="text" id="input3-group2" name="input3-group2" placeholder="Search" class="form-control">
-                                        <div class="input-group-btn">
-                                            <button class="btn btn-sm">
-                                            <i class="fa fa-plus-square"></i>
-                                            </button>
-                                        </div>
+                            <div class="card-footer col-md-12 p-0">
+                                <div class="input-group m-0">
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-sm">
+                                        <i class="fa fa-minus-square  mt-2"  style="font-size: 15px"></i>
+                                        </button>
+                                    </div>
+                                    <input style="border-top: 0; border-bottom: 0" type="text" id="input3-group2" name="input3-group2" placeholder="Search" class=" form-control">
+                                    <div class="input-group-btn border">
+                                        <button class="btn btn-sm">
+                                        <i class="fa fa-plus-square mt-2" style="font-size: 15px"></i>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -118,31 +116,29 @@
                         <!--------- END COUNTER ---------------------->
                     </div>
 
-                    <div class="col-lg-3 m-2">
+                    <div class="col-lg-4 m-2">
                         <!--------- BEGIN COUNTER ---------------------->
-                        <div class="card border shadow-sm ">
-                            <div class="card-body text-center bg-white">
-
+                        <div class="card border shadow-sm">
+                            <div class="card-body">
+                                <div class="text-center">
                                     <div class="profile-photo">
                                         <img src="assets/images/maminou/icons/3101.png" width="80%"  class=" img-fluid " alt="">
                                     </div>
                                     <h6 class="mt-2">Moin de 1ans</h6>
-
+                                </div>
                             </div>
-                            <div class="card-footer p-0">
-                                <div class="col-md-12">
-                                    <div class="input-group m-0">
-                                        <div class="input-group-btn">
-                                            <button class="btn btn-sm">
-                                            <i class="fa fa-minus-square"></i>
-                                            </button>
-                                        </div>
-                                        <input type="text" id="input3-group2" name="input3-group2" placeholder="Search" class="form-control">
-                                        <div class="input-group-btn">
-                                            <button class="btn btn-sm">
-                                            <i class="fa fa-plus-square"></i>
-                                            </button>
-                                        </div>
+                            <div class="card-footer col-md-12 p-0">
+                                <div class="input-group m-0">
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-sm">
+                                        <i class="fa fa-minus-square  mt-2"  style="font-size: 15px"></i>
+                                        </button>
+                                    </div>
+                                    <input style="border-top: 0; border-bottom: 0" type="text" id="input3-group2" name="input3-group2" placeholder="Search" class=" form-control">
+                                    <div class="input-group-btn border">
+                                        <button class="btn btn-sm">
+                                        <i class="fa fa-plus-square mt-2" style="font-size: 15px"></i>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -154,29 +150,27 @@
 
                     <div class="col-lg-4 m-2">
                         <!--------- BEGIN COUNTER ---------------------->
-                        <div class="card border shadow-sm ">
-                            <div class="card-body text-center bg-white">
-
+                        <div class="card border shadow-sm">
+                            <div class="card-body">
+                                <div class="text-center">
                                     <div class="profile-photo">
                                         <img src="assets/images/maminou/icons/3101.png" width="80%"  class=" img-fluid " alt="">
                                     </div>
                                     <h6 class="mt-2">Moin de 1ans</h6>
-
+                                </div>
                             </div>
-                            <div class="card-footer p-0">
-                                <div class="col-md-12">
-                                    <div class="input-group m-0">
-                                        <div class="input-group-btn">
-                                            <button class="btn btn-sm">
-                                            <i class="fa fa-minus-square"></i>
-                                            </button>
-                                        </div>
-                                        <input type="text" id="input3-group2" name="input3-group2" placeholder="Search" class="form-control">
-                                        <div class="input-group-btn">
-                                            <button class="btn btn-sm">
-                                            <i class="fa fa-plus-square"></i>
-                                            </button>
-                                        </div>
+                            <div class="card-footer col-md-12 p-0">
+                                <div class="input-group m-0">
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-sm">
+                                        <i class="fa fa-minus-square  mt-2"  style="font-size: 15px"></i>
+                                        </button>
+                                    </div>
+                                    <input style="border-top: 0; border-bottom: 0" type="text" id="input3-group2" name="input3-group2" placeholder="Search" class=" form-control">
+                                    <div class="input-group-btn border">
+                                        <button class="btn btn-sm">
+                                        <i class="fa fa-plus-square mt-2" style="font-size: 15px"></i>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -187,29 +181,27 @@
 
                     <div class="col-lg-4 m-2">
                         <!--------- BEGIN COUNTER ---------------------->
-                        <div class="card border shadow-sm ">
-                            <div class="card-body text-center bg-white">
-
+                        <div class="card border shadow-sm">
+                            <div class="card-body">
+                                <div class="text-center">
                                     <div class="profile-photo">
                                         <img src="assets/images/maminou/icons/3101.png" width="80%"  class=" img-fluid " alt="">
                                     </div>
                                     <h6 class="mt-2">Moin de 1ans</h6>
-
+                                </div>
                             </div>
-                            <div class="card-footer p-0">
-                                <div class="col-md-12">
-                                    <div class="input-group m-0">
-                                        <div class="input-group-btn">
-                                            <button class="btn btn-sm">
-                                            <i class="fa fa-minus-square"></i>
-                                            </button>
-                                        </div>
-                                        <input type="text" id="input3-group2" name="input3-group2" placeholder="Search" class="form-control">
-                                        <div class="input-group-btn">
-                                            <button class="btn btn-sm">
-                                            <i class="fa fa-plus-square"></i>
-                                            </button>
-                                        </div>
+                            <div class="card-footer col-md-12 p-0">
+                                <div class="input-group m-0">
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-sm">
+                                        <i class="fa fa-minus-square  mt-2"  style="font-size: 15px"></i>
+                                        </button>
+                                    </div>
+                                    <input style="border-top: 0; border-bottom: 0" type="text" id="input3-group2" name="input3-group2" placeholder="Search" class=" form-control">
+                                    <div class="input-group-btn border">
+                                        <button class="btn btn-sm">
+                                        <i class="fa fa-plus-square mt-2" style="font-size: 15px"></i>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
