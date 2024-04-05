@@ -82,7 +82,7 @@
                                 <div class="row m-1">
                                     <hr>
                                     <h3>Service</h3>
-                                    <div class="container col-12">
+                                    <div class="container col-12 row">
                                         <div class="col-xl-6 col-lg-6 col-sm-6">
                                             <div class="row">
                                                 <h4 class="text-primary">Vos Enfants</h4>
@@ -212,6 +212,92 @@
 
 
                                         </div>
+
+                                        <!------------------ PARTIE  DROITE ---------------->
+
+                                        <div class="col-xl-6 col-lg-6 col-sm-6">
+                                            <div class="row">
+                                                <h4 class="text-primary">Type de garde</h4>
+                                                <div class="col-10 mt-1 ">
+                                                    <!--------- BEGIN COUNTER ---------------------->
+
+                                                    <div class="card border bg-info-light widget-stat shadow-sm border border-primary">
+                                                        <input type="checkbox" id="chkData" name="chkData" aria-hidden="true" hidden="true"  />
+
+                                                        <div class="card-body  p-2">
+                                                            <div class="text-center ">
+                                                                <i class="flaticon-381-menu text-primary h2"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-footer border-primary  p-2 text-center">
+                                                            <span class="">Plein temps</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <!--------- END COUNTER ---------------------->
+                                                </div>
+
+                                                <div class="col-10 mt-1">
+                                                    <!--------- BEGIN COUNTER ---------------------->
+                                                    <div class="card border bg-success-light widget-stat shadow-sm border border-primary">
+                                                        <input type="checkbox" id="chkData" name="chkData" aria-hidden="true" hidden="true"  />
+
+                                                        <div class="card-body  p-2">
+                                                            <div class="text-center ">
+                                                                <i class="flaticon-381-menu text-primary h2"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-footer border-primary  p-2 text-center">
+                                                            <span class="">Occassionnelle</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <!--------- END COUNTER ---------------------->
+                                                </div>
+
+
+
+                                                <div class="col-10 mt-1">
+                                                    <!--------- BEGIN COUNTER ---------------------->
+
+                                                    <div class="card border shadow-sm border border-primary">
+                                                        <input type="checkbox" id="chkData" name="chkData" aria-hidden="true" hidden="true"  />
+
+                                                        <div class="card-body  p-2">
+                                                            <div class="text-center ">
+                                                                <i class="flaticon-381-menu text-primary h2"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-footer border-primary  p-2 text-center">
+                                                            <span class="">Sortie de l'école</span>
+                                                        </div>
+                                                    </div>
+                                                    <!--------- END COUNTER ---------------------->
+                                                </div>
+
+
+                                                <div class="col-10 mt-1">
+                                                    <!--------- BEGIN COUNTER ---------------------->
+                                                    <div class="card border  t shadow-sm border border-primary">
+                                                        <input type="checkbox" id="chkData" name="chkData" aria-hidden="true" hidden="true"  />
+
+                                                        <div class="card-body p-2">
+                                                            <div class="text-center m-0">
+                                                                <i class="flaticon-381-menu text-primary h2"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-footer border-primary  p-2 text-center">
+                                                            <span class="no-wrap">Assistante maternelle</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <!--------- END COUNTER ---------------------->
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
                                     </div>
 
                                 </div>
@@ -475,7 +561,7 @@
                             </div>
 
                          <!------------------------------ END STEP 3------------------------------------->
-                         
+
                             <div id="wizard_Details" class="tab-pane" role="tabpanel">
                                 <div class="row align-items-center">
                                     <div class="col-sm-4 mb-2">
