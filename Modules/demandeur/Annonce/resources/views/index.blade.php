@@ -28,7 +28,7 @@
         </div>
 
         <div class="col-xl-4 col-lg-6 col-sm-6">
-            <a href="annonce/AVS" target="_blanck">
+            <a href="https://www.google.com" target="_blanck">
                 <div class="card shadow">
                     <div class="card-body">
                         <div class="text-center">
@@ -43,7 +43,7 @@
         </div>
 
         <div class="col-xl-4 col-lg-6 col-sm-6">
-            <a href="annonce/animaux" target="_blanck">
+            <a href="https://www.google.com" target="_blanck">
                 <div class="card shadow">
                     <div class="card-body">
                         <div class="text-center">

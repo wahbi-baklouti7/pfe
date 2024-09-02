@@ -894,7 +894,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
     }, {
       key: "_setURLHash",
       value: function _setURLHash(hash) {
-        if (this.options.enableURLhash && window.location.hash == hash) {
+        if (this.options.enableURLhash && window.location.hash !== hash) {
           history.pushState(null, null, hash);
         }
       }

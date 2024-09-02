@@ -22,31 +22,7 @@ class ProfilController extends Controller
      */
     public function create()
     {
-        return view('profil::register');
-    }
-
-    /**
-     * Show the form for regiter a new resource.
-     */
-    public function register()
-    {
-        return view('profil::register');
-    }
-
-    /**
-     * Show the form for login to solution.
-     */
-    public function login()
-    {
-        return view('profil::login');
-    }
-
-    /**
-     * Show the form for forgot password.
-     */
-    public function forgot()
-    {
-        return view('profil::forgot');
+        return view('profil::create');
     }
 
     /**
