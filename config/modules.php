@@ -3,10 +3,6 @@
 use Nwidart\Modules\Activators\FileActivator;
 use Nwidart\Modules\Providers\ConsoleServiceProvider;
 
-$dossier = '\demandeur';
-
-
-
 return [
 
     /*
@@ -18,7 +14,7 @@ return [
     |
     */
 
-    'namespace' => 'Modules'.$dossier,
+    'namespace' => 'Modules',
 
     /*
     |--------------------------------------------------------------------------
@@ -75,7 +71,12 @@ return [
         |
         */
 
-        'modules' => base_path('Modules'.$dossier),
+        'modules' => [
+            base_path('Modules\demandeur'),
+            base_path('Modules\prestataire'),
+            base_path('Modules\staff'),
+            
+        ],
         /*
         |--------------------------------------------------------------------------
         | Modules assets path
@@ -85,7 +86,11 @@ return [
         |
         */
 
-        'assets' => public_path('modules'.$dossier),
+        'assets' =>  [
+            public_path('Modules\demandeur'),
+            public_path('Modules\prestataire'),
+            public_path('Modules\staff'),
+        ],
         /*
         |--------------------------------------------------------------------------
         | The migrations' path

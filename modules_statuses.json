@@ -2,5 +2,7 @@
     "White": true,
     "Blanck": true,
     "Annonce": true,
-    "Profil": true
+    "Profil": true,
+    "Staff": true,
+    "Search": true
 }
